@@ -1,0 +1,23 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="SpringSecurityRestApiApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+    <envs>
+      <env name="SECRET_KEY" value="a345983bb9b761d9a0ccb060429942ebeb95f94b16850b2017b03c3d0a72e4ca" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="com.villysiu.springsecurityrestapi.SpringSecurityRestApiApplication" />
+    <module name="SpringSecurityRestAPI" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.villysiu.springsecurityrestapi.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+      <option name="credential" />
+      <option name="region" />
+      <option name="useCurrentConnection" value="false" />
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
